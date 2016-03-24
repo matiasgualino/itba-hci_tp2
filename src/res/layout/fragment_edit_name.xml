@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="55dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <TextView
+        android:id="@+id/filters_text_row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="55dp"
+        android:text="Genero"
+        android:textColor="@color/dark_gray" />
+
+    <View
+        android:id="@+id/filters_row_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+    <CheckedTextView
+        android:id="@+id/masculino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:onClick="toggle"
+        android:text="Masculino"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp" />
+
+    <CheckedTextView
+        android:id="@+id/femenino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Femenino"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/filters_text_row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="55dp"
+        android:text="Edad"
+        android:textColor="@color/dark_gray" />
+
+    <View
+        android:id="@+id/filters_row_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+    <CheckedTextView
+        android:id="@+id/adulto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Adulto"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp" />
+
+    <CheckedTextView
+        android:id="@+id/infantil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="Infantil"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/filters_row_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="?android:attr/listDivider" />
+
+</LinearLayout>

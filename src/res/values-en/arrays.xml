@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Language">
+        <item name="es">Spanish</item>
+        <item name="en">English</item>
+    </string-array>
+    <string-array name="LanguageValues">
+        <item name="es">es</item>
+        <item name="en">en</item>
+    </string-array>
+    
+    <string-array name="notifFrequency">
+        <item name="1">1 minute</item>
+        <item name="5">5 minutes</item>
+        <item name="30">30 minutes</item>
+        <item name="60">1 hour</item>
+    </string-array>
+    <string-array name="notifFrequencyValues">
+        <item name="1">1</item>
+        <item name="5">5</item>
+        <item name="30">30</item>
+        <item name="60">60</item>
+    </string-array>
+     <array name="nav_drawer_icons">
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_categories</item>
+        <item>@drawable/ic_male</item>
+        <item>@drawable/ic_female</item>
+        <item>@drawable/ic_kids</item>
+        <item>@drawable/ic_orders</item>
+        <item>@drawable/ic_sales</item>
+        <item>@drawable/ic_qr</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_user</item>
+    </array>
+     
+     <string-array name="menu_options">
+        <item>Home</item>
+        <item>Categories</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Child</item>
+        <item>Orders</item>
+        <item>Sales</item>
+        <item>QR scanner</item>
+        <item>Settings</item>
+        <item>Login</item>
+    </string-array>
+</resources>

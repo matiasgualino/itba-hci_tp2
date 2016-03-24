@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+		 <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:progressDrawable="@drawable/pbar_style" />
+        <!-- Header Starts -->
+        <!-- Header Ends -->
+
+
+    
+<LinearLayout android:id="@+id/footer"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="70dip"
+    android:background="@color/white"
+    android:layout_alignParentBottom="true">
+</LinearLayout>
+
+
+        <!-- Login Form -->
+        <!-- Login Form Ends -->
+
+        <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dip"
+          android:layout_below="@+id/header">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_email"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/editUsr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:hint="@string/prompt_email"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prompt_password"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/editPass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:hint="@string/prompt_password"
+                android:password="true"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style"
+                android:text="@string/action_sign_in_short"  />
+
+            <TextView
+                android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="40dip"
+                android:gravity="center"
+                android:text="@string/forgot_password"
+                android:textColor="@color/bgcolor"
+                android:textSize="14dip" />
+
+        </LinearLayout> 
+
+        <LinearLayout android:id="@+id/header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingTop="15dip"
+                android:paddingBottom="5dip">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
